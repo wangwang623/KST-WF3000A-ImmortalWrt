@@ -44,7 +44,7 @@ nmbm0:1024k(bl2),512k(u-boot-env),2048k(factory),2048k(fip),116736k(ubi)
 
 - **完整 fork 源码** —— 设备树、机型定义、MAC 推导、无线驱动配置等移植改动已直接写进源码
 - **GitHub Actions 一键云编译** —— 产出 `initramfs-kernel.bin` / `squashfs-factory.bin` / `squashfs-sysupgrade.bin` 三个镜像
-- **纯净固件** —— 官方默认包 + LuCI 中文 + HNAT 硬件加速 + MTK 无线驱动，不含第三方插件，需要什么刷完自己 `opkg install`
+- **固件** —— 官方默认包 + LuCI 中文 + HNAT 硬件加速 + MTK 无线驱动，内置 `zram-swap`（64M / LZ4），除此之外不含第三方插件，需要什么刷完自己 `opkg install`（AX6000 同样内置 `zram-swap`）
 - **内置 NMBM oobsize 对齐修复** —— 解决「同一份固件，有的机器正常、有的机器刷完反复重启或一直停在 U-Boot Web」的问题
 - **完整文档** —— 刷机步骤、验证命令、MAC 规律、无线驱动说明、NMBM 原理与排查
 - 同时支持 **Redmi AX6000（MT7986）**
