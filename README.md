@@ -3,6 +3,7 @@
 ## 👉 源码、固件与文档都在新仓库
 
 ### https://github.com/wangwang623/immortalwrt-mt798x-6.6
+### https://github.com/wangwang623/immortalwrt-hanwckf-firmware-build
 
 本仓库只作型号索引与引导，**不含源码、不再发布固件**。
 云编译、下载 Release、刷机说明、问题反馈请全部到新仓库。
@@ -53,3 +54,4 @@ nmbm0:1024k(bl2),512k(u-boot-env),2048k(factory),2048k(fip),116736k(ubi)
 
 编译、下载、刷机、提 Issue / PR，请直接前往
 **https://github.com/wangwang623/immortalwrt-mt798x-6.6**
+**https://github.com/wangwang623/immortalwrt-hanwckf-firmware-build**
